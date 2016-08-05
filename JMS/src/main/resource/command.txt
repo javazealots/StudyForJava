@@ -1,0 +1,32 @@
+1.mkdir 创建目录
+	>> -p 递归创建目录
+	>> -v 输出操作信息
+		例子
+		>> mkdir test1（只能创建一个目录）
+		>> mkdir -pv test/test1(创建多个目录)
+	
+	>> 补充(tree)
+		>> 安装：sudo apt-get install tree
+		>> 实例
+			>> mkdir -pv test/{test1,test2/{test3},/test4/{test5/test6}}
+			>> tree test
+		
+2.rm 删除目录
+	>> -f 直接删除，不予提示
+	>> -r 递归删除，包括目录
+	>> -v 提示信息，直接输出
+	>> -i 人机交互，提示删除
+	
+		例子
+		>>	rm test.txt 		默认只能删除文件，不能删除目录
+		>>  rm -i test.txt		提示删除
+		>>	rm -r test/test.txt 一起删除
+		
+3.mv 移动文件/重命名
+	>> -b 文件存在先备份
+	>> -f 文件存在即覆盖
+	>> -i 人机交互再修改
+	
+		例子
+		>> mv test.txt test1.txt
+		>> mv test.txt test		

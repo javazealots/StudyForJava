@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.hogan.study</groupId>
-	<artifactId>jms</artifactId>
+	<artifactId>hackerrank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jms</name>
+	<name>hackerrank</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -27,20 +27,7 @@
 		</plugins>
 	</build>
 
-
 	<dependencies>
-		<dependency>
-			<groupId>javax.jms</groupId>
-			<artifactId>jms</artifactId>
-			<version>1.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-all</artifactId>
-			<version>5.13.4</version>
-		</dependency>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

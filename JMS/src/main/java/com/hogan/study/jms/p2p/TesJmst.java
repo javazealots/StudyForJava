@@ -11,6 +11,9 @@ public class TesJmst {
 	
 	@Test
 	public void testConsumer(){
-		Customer customer=new Customer();
+		//Customer customer=new Customer();
+		String s="asdf";
+		System.out.println(s.substring(0,2));
+		System.out.println(s.substring(0, s.length()-2));
 	}
 }
